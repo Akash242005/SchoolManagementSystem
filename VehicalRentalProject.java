@@ -143,7 +143,6 @@ class vechicleRentalSystem {
                 total+=u.getRentalCost(days);
             }
         }
-        System.out.println("The total Sales is : "+total);
         return total;
     }
 }
@@ -179,6 +178,7 @@ public class Main{
                         System.out.print("Enter the Number of days : ");
                         int days = sc.nextInt();
                         rental.gettingRental(id, days);
+                        total = rental.totalEarning(1,total);
                         break;
                     case 3:
                         System.out.print("Enter the vehicle Id to retrun : ");
@@ -194,6 +194,7 @@ public class Main{
                         break;
                     case 5 :
                         total = rental.totalEarning(1,total);
+                        System.out.println("The total Sales is : "+total);
                         break;
                     case 6:
                         return;
