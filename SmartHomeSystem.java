@@ -11,7 +11,7 @@ class SmartLight implements SmartDevice{
     private int brightNess = 0;
     private String color = "White";
     public void turnOn(){
-        System.out.println("The Smart Light is Turned ON");
+        System.out.println("The Smart Light is Turned ON"); 
     }
     public void turnOff(){
         System.out.println("The Smart Light is Turned OFF");
