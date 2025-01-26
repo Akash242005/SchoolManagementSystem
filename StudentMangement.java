@@ -3,7 +3,7 @@ import java.util.ArrayList;
 class Person {
         private int id;
         private String name;
-        private int age;
+        private int age; 
         private String address;
         //public static String clgname;
         private int leaveBalance;
